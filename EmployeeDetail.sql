@@ -143,6 +143,13 @@ select convert(varchar(8), getdate(),108);
 
 select convert(varchar(8), month(),108);
 
+Select first name from "EmployeeDetail" table after removing 
+white spaces from right side
+
+select concat('','firstname')
+from employeedetail;
+
+
 
 
 
